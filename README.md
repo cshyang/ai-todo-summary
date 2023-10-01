@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Todo Summary
+This is a simple drag-and-drop todo app with GPT summary. https://ai-todo-summary.vercel.app/
 
-## Getting Started
+![image](https://github.com/cshyang/ai-todo-summary/assets/45311586/0a4814c3-0812-4bd1-a812-067a14e61c70)
 
-First, run the development server:
+## Stacks
+1. Next.js 13
+2. Appwrite
+3. OpenAI
+4. TailwindCSS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Startup 🚀
+3. Clone this repo `git clone https://github.com/cshyang/ai-todo-summary.git`
+4. Go to the directory. `cd ai-todo-summary`
+5. Install the required dependencies `npm -i`
+6. Create an Appwrite project.
+8. Create an .env file and insert the following env variables.
+`
+NEXT_PUBLIC_APPWRITE_PROJECT_ID=XXXXX
+NEXT_PUBLIC_APPWRITE_DB_ID=XXXXX
+NEXT_PUBLIC_TODOS_COLLECTION_ID=XXXXX
+NEXT_PUBLIC_TODOS_IMAGE_BUCKET_ID=XXXXX
+OPENAI_API_KEY=XXXXXX
+`
+10. Start the app `npm run dev`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contribution
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contact
+GitHub: @cshyang
