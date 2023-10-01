@@ -2,7 +2,7 @@ interface Board {
   columns: Map<TypedColumn, Column>;
 }
 
-type TypedColumn = "todo" | "in-progress" | "done";
+type TypedColumn = "todo" | "inprogress" | "done";
 
 interface Column {
   id: TypedColumn;
@@ -14,7 +14,7 @@ interface Todo {
   $createdAt: string;
   title: string;
   status: TypedColumn;
-  image?: string;
+  image?: Image;
 }
 
 interface Image {
